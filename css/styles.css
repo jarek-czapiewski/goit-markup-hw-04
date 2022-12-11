@@ -103,7 +103,6 @@ body {
 }
 
 /*header contacts*/
-
 .link:hover,
 .link:focus,
 .link-footer:hover,
@@ -116,6 +115,7 @@ body {
   justify-content: space-between;
   gap: 50px;
 }
+
 
 .menu-nav:last-child {
   margin-right: 0px;
@@ -131,11 +131,13 @@ body {
 
 }
 
+
 .hero-content {
   text-align: center;
   padding-left: 252px;
   padding-right: 252px;
 }
+
 
 .header-main {
   font-weight: 900;
@@ -405,4 +407,22 @@ body {
 .portfolio-projects-item .portfolio-description {
   padding: 20px 24px;
   border: 1px solid var(--projects-color);
+}
+
+.icon-email{
+  width: 16px;
+height: 12px;
+margin-right: 10px;
+vertical-align: middle;
+}
+
+.icon-phone{
+  width: 10px;
+  height: 16px;
+vertical-align: text-top;
+margin-right: 10px;
+}
+
+.menu-nav{
+  fill: currentColor;
 }
