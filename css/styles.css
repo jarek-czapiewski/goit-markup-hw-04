@@ -13,6 +13,7 @@
   --white-color: #ffffff;
   --light-color: #f5f4fa;
   --projects-color: #eeeeee;
+  --lightgray-color: #AFB1B8;
 }
 
 body {
@@ -426,3 +427,98 @@ margin-right: 10px;
 .menu-nav{
   fill: currentColor;
 }
+
+
+.hero{
+  background-image: url('../images/img-underlay.jpg'), url('../images/img-overlay.png');
+  background-size: 1600px 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.features-icon{
+  padding: 25px 100px;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-bottom: 30px;
+ border-radius: 4px;
+}
+
+.social-media-icons{
+fill: var(--lightgray-color);
+display: block;
+}
+
+.social-media-icons:hover{
+  fill: var(--white-color);
+  background-color: var(--brand-color);
+  border-radius: 50%;
+}
+
+.team-social-media{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content:space-around;
+  padding-top: 16px;
+  padding-right: 32px; 
+  padding-left: 32px;
+}
+
+.customers{
+  list-style-type: none;
+  display:flex;
+  gap: 30px;
+  fill:var(--lightgray-color);
+  align-items: center;
+  justify-content: center;
+  margin-left: -27px;
+  cursor: pointer;
+}
+
+.logo-customers{
+  border: 1px solid var(--lightgray-color);
+border-radius: 4px;
+}
+
+.logo-customers:hover
+{
+  fill: var(--brand-color);
+  border-color: var(--brand-color);
+}
+
+.footer-social-media > p{
+  color:var(--white-color);
+  font-size: 14px;
+  font-weight: 700px;
+  text-transform: uppercase;
+ margin-top: 22px;
+ margin-bottom: 20px;
+  text-align: center;
+}
+
+.footer-social-media{
+  align-items: center;
+  display: flex;
+}
+
+.footer-social-media-list{
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.footer-social-media-icon{
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-social-media-icon:hover{
+  background-color: var(--brand-color);
+}
+
+
