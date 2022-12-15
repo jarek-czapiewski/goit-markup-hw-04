@@ -365,23 +365,30 @@ body {
 .customers {
   list-style-type: none;
   display: flex;
-  gap: 30px;
-  fill: var(--lightgray-color);
   align-items: center;
   justify-content: center;
+  gap: 30px;
+  fill: var(--lightgray-color);
   margin-left: -27px;
-  cursor: pointer;
-}
+  cursor: pointer;}
+ 
 
-.logo-customers {
+  .customers-item:hover,
+  .customers-item:focus{
+    border: 1px solid var(--brand-color);
+    fill: var(--brand-color);
+    border-radius: 4px; } 
+   
+
+.customers-item{
   border: 1px solid var(--lightgray-color);
-  border-radius: 4px;
+  width: 170px;
+  height: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.logo-customers:hover {
-  fill: var(--brand-color);
-  border-color: var(--brand-color);
-}
 
 /*footer*/
 .contacts {
@@ -534,5 +541,8 @@ body {
   padding: 20px 24px;
   border: 1px solid var(--projects-color);
 }
+
+
+
 
 
